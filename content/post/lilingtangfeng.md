@@ -1,7 +1,7 @@
 ---
 title: "醴陵汤粉"
 author: "Author Name"
-cover: "/media/posts/lilingtangfeng/01.jpg"
+cover: "/media/posts/醴陵汤粉/01.jpg"
 tags: ["醴陵", "汤粉"]
 date: 2018-06-05T16:07:00+08:00
 draft: true
