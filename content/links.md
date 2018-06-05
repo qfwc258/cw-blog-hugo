@@ -1,9 +1,10 @@
 ---
-title: "Links"
-date: "2014-04-09"
+title: "友链"
+author: "米老朱"
+date: 2017-07-17
 layout: "links"
 menu: "main"
 weight: 40
 ---
 
-Ritchie and his friends.
+米老朱的朋友们。

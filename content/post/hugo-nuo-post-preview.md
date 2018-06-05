@@ -1,7 +1,8 @@
 ---
 title: "Hugo 主题 Nuo 文章样式预览"
 tags: ["Markdown", "Theme", "Hugo"]
-date: 2013-07-17
+date: 2017-07-17
+draft: false
 ---
 
 这篇文章集中说明本人博客主题所支持的 Markdown 语法和 Hugo Shortcodes 插件，你也可以在这里预览到他们的样子。如果你不喜欢某些部分的样式，可以去修改 `content.scss` 和 `shortcodes.scss` 这两个文件。预告一下，我所用的这个名为 `Nuo` 的 `Hugo` 也将于近期发布，敬请期待。
@@ -157,7 +158,16 @@ if (document.getElementById('my-player') !== null) {
 
 主题使用了 [MathJax](https://www.mathjax.org/) 开源库来实现对数学公式的支持，使用 `$$` 标记。
 
-$$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
+<div>$$
+\left\{
+\begin{aligned}
+N & = pq \\
+\varphi(n) & = (p-1)(q-1)\\
+\end{aligned}
+\right.
+\Rightarrow 
+N - \varphi(n) + 1 = p + q
+$$</div>
 
 ## 10. JSFiddle
 
@@ -190,7 +200,7 @@ $$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
 
 主题文章中可以轻松插入 [网易云音乐](https://music.163.com/) 的指定音乐，你可以根据需要将音乐设置为自动播放，在主题目录 `layouts/shortcodes` 文件夹下的 `music.html` 对该标签进行定义。
 
-{{% music "3950552" %}}
+**注意：由于版权问题，网易已经禁止外站分享版权音乐，该 shortcode 已经无法正常使用。**
 
 ## 15. Gist 代码片段
 
@@ -212,7 +222,16 @@ $$ evidence\_{i}=\sum\_{j}W\_{ij}x\_{j}+b\_{i} $$
 
 由于不明原因可能无法访问。
 
+## 文章更新
+
+### [2017年9月8日](#inline-mathjax)
+
+支持行内的数学公式，使用标记 `$` 包裹公式，如下：
+
+When `\(a \ne 0\)`, there are two solutions to `$ax^2 + bx + c = 0$` and they are
+<div>$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$</div>
+
 ## 参考资料
 
-1. <a id="ref01">[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)</a>
-2. <a id="ref02">[Markdown 语法手册](https://www.zybuluo.com/EncyKe/note/120103)</a>
+1. <p id="ref01">[Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)</p>
+2. <p id="ref02">[Markdown 语法手册](https://www.zybuluo.com/EncyKe/note/120103)</p>
