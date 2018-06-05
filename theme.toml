@@ -1,6 +1,15 @@
-author = "Markus Eliasson"
-description = "Liquorice is a small black and white theme for Hugo."
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Hugo Nuo"
 license = "MIT"
-name = "liquorice"
-source_repo = "https://github.com/eliasson/liquorice"
-tags = ["", ""]
+licenselink = "https://github.com/laozhu/hugo-nuo/blob/master/LICENSE.md"
+description = "An responsive light & clean hugo theme for blogger."
+homepage = "https://github.com/laozhu/hugo-nuo"
+tags = ["Responsive", "blog", "Google analytics", "Disqus", "Light", "Clean", "Polyfill"]
+features = ["Blog", "Works", "Links", "Portfolio"]
+min_version = "0.24"
+
+[author]
+  name = "Ritchie Zhu"
+  homepage = "https://laozhu.me"
