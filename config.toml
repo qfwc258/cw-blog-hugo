@@ -1,13 +1,13 @@
-baseURL = "https://laozhu.me"
+baseURL = "https://hugoc.netlify.com"
 languageCode = "zh-Hans"
-title = "Ritchie Pub."
+title = "生命的轨迹"
 theme = "hugo-nuo"
 enableRobotsTXT = true
 PygmentsCodeFences = true
 canonifyurls = true
 
 # Disqus Username
-disqusShortname = "melaozhu"
+disqusShortname = "尘苇"
 
 # Google Analytics UA number
 googleAnalytics = "UA-33369276-1"
@@ -36,21 +36,21 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
 # Add your own params here
 [params]
-  author = "米老朱"
+  author = "尘苇"
   avatar = "/img/avatar.jpg"
-  seotitle = "米老朱的博客 Ritchie Pub."
-  subtitle = "~ 带着爱和梦想生活 ~"
-  description = "这里是 @米老朱 的个人博客，记录他在互联网新世界探索的点点滴滴 This is melaozhu's personal blog, he takes note here while exploring the new world."
+  seotitle = "尘苇的博客 生命的轨迹"
+  subtitle = "~ 心有猛虎 细嗅蔷薇 ~"
+  description = "这里是 @尘苇 的个人博客，记录他在互联网新世界探索的点点滴滴 This is chenwei's personal blog, he takes note here while exploring the new world."
   paginate = 10
 
   # Choose your social networks
-  email = "laozhu.me@gmail.com"
-  github = "laozhu"
-  twitter = "melaozhu"
-  linkedin = "melaozhu"
-  weibo = "shiaohoo"
+  email = "cw@xlking.com"
+  github = "qfwc258"
+  twitter = "qfwc258"
+  linkedin = "qfwc258"
+  weibo = "cw_law"
   wechat= "/img/qrcode.jpg"  # Replace with your wechat qrcode image
-  # facebook = "melaozhu"
+  # facebook = "qfwc258"
   # google = "109063353665074282689"
   # instagram = "melaozhu"
   # youtube = "melaozhu"
