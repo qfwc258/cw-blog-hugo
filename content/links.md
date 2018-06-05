@@ -1,10 +1,10 @@
 ---
 title: "友链"
-author: "米老朱"
+author: "尘苇"
 date: 2017-07-17
 layout: "links"
 menu: "main"
 weight: 40
 ---
 
-米老朱的朋友们。
+我的朋友们。
